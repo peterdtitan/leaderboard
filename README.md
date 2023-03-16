@@ -67,14 +67,9 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:peterdtitan/to-do-list.git
-```
-```sh
-  cd my-folder
-  git clone git@github.com:peterdtitan/to-do-list.git
+  git clone git@github.com:peterdtitan/leaderboard.git
 ```
 
-- **Once inside the directory, locate the index.html file and run with live server**
 - **Once inside the directory, locate the index.html file and run with live server**
 
 ## Getting Started
