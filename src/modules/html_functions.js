@@ -1,4 +1,4 @@
-import Score from './score.js';
+import Score from './score';
 
 const scoreFormEventListener = (fifa) => {
   const scoreForm = document.getElementById('score-form');
@@ -18,6 +18,6 @@ const scoreFormEventListener = (fifa) => {
   fifa.addNewScore(newScore);
 
   scoreForm.reset();
-}
+};
 
 export { scoreFormEventListener };

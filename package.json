@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/peterdtitan/leaderboard/issues"
   },
-  "homepage": "https://github.com/peterdtitan/leaderboard#readme"
+  "homepage": "https://github.com/peterdtitan/leaderboard#readme",
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.0"
+  }
 }
