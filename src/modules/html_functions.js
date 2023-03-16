@@ -2,7 +2,7 @@ import Score from './score';
 
 const scoreFormEventListener = (fifa) => {
   const scoreForm = document.getElementById('score-form');
-  const newScore = new Score(scoreForm.elements['name'].value, scoreForm.elements['score'].value);
+  const newScore = new Score(scoreForm.elements.name.value, scoreForm.elements.score.value);
   const scoresTable = document.getElementById('scores-table');
 
   const newScoreElement = document.createElement('li');
@@ -20,4 +20,4 @@ const scoreFormEventListener = (fifa) => {
   scoreForm.reset();
 };
 
-export { scoreFormEventListener };
+export default scoreFormEventListener;

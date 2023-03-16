@@ -1,6 +1,6 @@
 export default class Score {
     name;
-    
+
     score;
 
     constructor(name, score) {
