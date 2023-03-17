@@ -72,7 +72,7 @@ Clone this repository to your desired folder:
   git clone git@github.com:peterdtitan/leaderboard.git
 ```
 
-- **Once inside the directory, locate the index.html file and run with live server**
+- **Once inside the directory, run ```npm install``` and then ```npm build```**
 
 ## Getting Started
 
@@ -85,12 +85,15 @@ To get a local copy up and running follow these simple example steps.
 - An IDE
 
 ### Setup
-- Clone this repository into a directory of your choice and open the index.html file
+- Clone this repository into a directory of your choice.
 
 OR
 
 - Download this repository as a .zip file
-- Extract contents and open the index.html file.
+- Extract contents.
+- Run ```npm install``` 
+- Run ```npm build```
+- Run ```npm start``` to start the live server
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
