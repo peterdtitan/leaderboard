@@ -8,7 +8,7 @@ const addRecentScore = (fifa, {
 
   const newScoreElement = document.createElement('li');
   newScoreElement.innerHTML = `
-    <p>${name}: ${score}</p>
+    <p>${name}</p><p>${score}</p>
   `;
 
   if (fifa.scores.length === 0) {
@@ -45,7 +45,7 @@ const scoreFormEventListener = async (fifa) => {
 const refreshButtonEventListener = async (fifa) => {
   const scoresTable = document.getElementById('scores-table');
   scoresTable.innerHTML = `
-    <p class="centered-text">Loading ...</p>
+    <p class="centered-text"><img src="./assets/images/loading-bar.png" alt="" width="70"></p>
   `;
 
   const data = await FifaAPI.getScores(fifa.gameID);
