@@ -18,6 +18,8 @@
 
 **Leaderboard** is an app built with JavaScript, it creates an online scoreboard and updates it on entry. It also utilizes and API and callback functions (async).
 
+![screenshot](./leaderboard-app-screenshot.png)
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
