@@ -1,6 +1,8 @@
 import './styles.scss';
 import Fifa from './modules/fifa';
 import { scoreFormEventListener, refreshButtonEventListener } from './modules/html_functions';
+import './assets/images/fifa.png';
+import './assets/images/loading-bar.png';
 
 const fifa = new Fifa();
 
